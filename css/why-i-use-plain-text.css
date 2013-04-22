@@ -1,0 +1,49 @@
+/* Custom CSS for your KeyDown presentation here */
+
+/* Uncomment to turn off deck.js navigation */
+/*.deck-prev-link,*/
+/*.deck-next-link {*/
+    /*display: none;*/
+/*}*/
+
+/* Uncomment to turn off deck.js status */
+/*.deck-status {*/
+    /*display: none;*/
+/*}*/
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(../fonts/Bebas/stylesheet.css);
+
+img[alt=markdown] {
+  width: 250px;
+}
+
+img[alt=markdown-diagram] {
+  width: 800px;
+}
+
+img[alt=cc-by-sa] {
+  margin-top: 55px;
+}
+
+.fancy p,
+.fancy li {
+  font-family: 'Pacifico', cursive !important;
+  color: #aaa !important;
+}
+
+.fancy h1, .fancy h2, .fancy h3, .fancy h4 {
+  font-family: "BebasRegular", sans-serif !important;
+  color: black !important;
+}
+
+.fancy h1 + p {
+  margin-top: 33px !important;
+}
+
+.fancy a {
+  color: cyan !important;
+}
+
+.fancy pre {
+  color: black;
+}
